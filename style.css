@@ -1,0 +1,193 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FFF8F0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    color: aliceblue;
+    width: 100vw;
+    font-size: 1.5rem;
+    background-color: #D6A9FF;
+    font-family: "Fredoka", sans-serif;
+    gap: 35vw;
+}
+
+.secciones {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10vh;
+    background-image:
+        url("img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: aliceblue;
+    font-size: 3rem;
+    font-family: "Fredoka", sans-serif;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+main {
+    display: block;
+}
+
+.mv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2vw;
+    padding: 5px;
+}
+
+.texmv {
+    text-align: justify;
+    font-size: 1.2rem;
+    font-family: "Fredoka", sans-serif;
+}
+
+.imgmv {
+    height: 100vh;
+    width: 50vw;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.search input {
+    padding: 0.7rem 2.5rem 0.7rem 1.5rem;
+    /* espacio para el ícono */
+    font-size: 1rem;
+    border: 2px solid #FF3CAC;
+    border-radius: 2rem;
+    outline: none;
+    width: 300px;
+    background: white;
+    color: #333;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0 4px 10px rgba(255, 60, 172, 0.2);
+    transition: all 0.3s ease;
+}
+
+.search input:focus {
+    border-color: #FF6B81;
+    box-shadow: 0 0 10px rgba(255, 107, 129, 0.4);
+}
+
+.icono-busqueda {
+    position: absolute;
+    right: 25px;
+    top: 57%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 2vh;
+    gap: 5px;
+    padding-bottom: 1vh;
+    border-bottom: solid 1px black;
+}
+
+.search svg input {
+    margin-right: 5vw;
+}
+
+.cajaproductos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.productos {
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    max-width: 200px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.productos img {
+    max-width: 100%;
+    height: 150px;
+    border-radius: 0.5rem;
+}
+
+.imgproductos {
+    height: 2vh;
+}
+
+
+/*Animaciones*/
+
+/* Animación inicial al cargar */
+.search input {
+    animation: entradaInput 0.6s ease-in-out;
+}
+
+@keyframes entradaInput {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Animación al enfocar */
+.search input:focus {
+    transform: scale(1.03);
+}

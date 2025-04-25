@@ -1,0 +1,38 @@
+[
+    {
+      "nombre": "Gomitas de Fresa",
+      "imagen": "img/fresa.png",
+      "descripcion": "Dulces gomitas sabor fresa.",
+      "precio": "Q15.00"
+    },
+    {
+      "nombre": "Gomitas Ácidas",
+      "imagen": "img/aciditas.png",
+      "descripcion": "Con un toque ácido irresistible.",
+      "precio": "Q18.00"
+    },
+    {
+      "nombre": "Gomitas de Osito",
+      "imagen": "img/ositos.png",
+      "descripcion": "Tiernos ositos multicolor.",
+      "precio": "Q12.00"
+    },
+    {
+        "nombre": "Vaso de gomitas",
+        "imagen": "img/IMG-20250424-WA0011.jpg",
+        "descripcion": "Dos vasos con gomitas surtidas.",
+        "precio": "Q24.00"
+    },
+    {
+        "nombre": "Caja de gomitas surtidas",
+        "imagen": "img/IMG-20250424-WA0012.jpg",
+        "descripcion": "Caja de gomitas Surtidas.",
+        "precio": "Q40.00"
+    },
+    {
+        "nombre": "Caja de gomitas",
+        "imagen": "img/IMG-20250424-WA0016.jpg",
+        "descripcion": "Caja con gomitas surtidas con dedicatoria.",
+        "precio": "Q24.00"
+    }
+]
