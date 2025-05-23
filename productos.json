@@ -1,38 +1,68 @@
 [
     {
-      "nombre": "Gomitas de Fresa",
-      "imagen": "img/fresa.png",
-      "descripcion": "Dulces gomitas sabor fresa.",
+      "nombre": "Frasco con Gomitas",
+      "imagen": "img/Imagen1.jpeg",
+      "descripcion": "Mix.",
       "precio": "Q15.00"
     },
     {
       "nombre": "Gomitas Ácidas",
-      "imagen": "img/aciditas.png",
+      "imagen": "img/Imagen2.jpeg",
       "descripcion": "Con un toque ácido irresistible.",
       "precio": "Q18.00"
     },
     {
-      "nombre": "Gomitas de Osito",
-      "imagen": "img/ositos.png",
-      "descripcion": "Tiernos ositos multicolor.",
+      "nombre": "Gomitas sabor sandía",
+      "imagen": "img/Imagen3.jpeg",
+      "descripcion": "Deliciosas sandías dulces.",
       "precio": "Q12.00"
     },
     {
         "nombre": "Vaso de gomitas",
-        "imagen": "img/IMG-20250424-WA0011.jpg",
+        "imagen": "img/Imagen4.jpeg",
         "descripcion": "Dos vasos con gomitas surtidas.",
         "precio": "Q24.00"
     },
     {
-        "nombre": "Caja de gomitas surtidas",
-        "imagen": "img/IMG-20250424-WA0012.jpg",
-        "descripcion": "Caja de gomitas Surtidas.",
+        "nombre": "Caja de gomitas estrelladas",
+        "imagen": "img/Imagen5.jpeg",
+        "descripcion": "Gomitas.",
         "precio": "Q40.00"
     },
     {
         "nombre": "Caja de gomitas",
-        "imagen": "img/IMG-20250424-WA0016.jpg",
-        "descripcion": "Caja con gomitas surtidas con dedicatoria.",
+        "imagen": "img/Imagen6.jpeg",
+        "descripcion": "Mix de gomitas.",
+        "precio": "Q24.00"
+    },
+    {
+        "nombre": "Caja de gomitas",
+        "imagen": "img/Imagen7.jpeg",
+        "descripcion": "Gusanitos especiales.",
+        "precio": "Q24.00"
+    },
+    {
+        "nombre": "Caja de gomitas",
+        "imagen": "img/Imagen8.jpeg",
+        "descripcion": "Gomitas azucaradas.",
+        "precio": "Q24.00"
+    },
+    {
+        "nombre": "Caja de gomitas",
+        "imagen": "img/Imagen9.jpeg",
+        "descripcion": "Sorprende.",
+        "precio": "Q24.00"
+    },
+    {
+        "nombre": "Barras Azucaradas SPECIAL",
+        "imagen": "img/Imagen10.jpeg",
+        "descripcion": "",
+        "precio": "Q50.00"
+    },
+    {
+        "nombre": "Bote especial",
+        "imagen": "img/Imagen11.jpeg",
+        "descripcion": "Gomitas surtidas con especialidades",
         "precio": "Q24.00"
     }
 ]

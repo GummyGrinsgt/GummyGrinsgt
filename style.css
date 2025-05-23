@@ -46,7 +46,7 @@ header {
     flex-direction: column;
     gap: 10vh;
     background-image:
-        url("img/background.jpg");
+        url("img/background.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -190,4 +190,11 @@ main {
 /* Animación al enfocar */
 .search input:focus {
     transform: scale(1.03);
+}
+
+.FooterProductos {
+    background-color: #FF3CAC;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2px;
 }
